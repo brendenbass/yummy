@@ -19,7 +19,7 @@ const businessArray = [business, business, business, business, business, busines
 
 function App() {
   return (
-    <div class="App">
+    <div className="App">
   <h1>yummy</h1>
   <SearchBar/>
   <BusinessList businesses={businessArray}/> 
